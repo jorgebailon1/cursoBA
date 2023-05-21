@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: #ECF9FF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav_pri{
+    color: rgba(218, 122, 122, 0.507);
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0px;
+    padding-left: 100px;
+}
+.nav_pri a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 20px;
+}
+.nav_pri a:hover{
+    color: rgba(61, 34, 34, 0.507);
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0px;
+    zoom: 1.01;
+    transition: 3s;
+}
+.ima{
+    width: 90px;
+    height: 90px;
+}
+.pagina{
+background-image: url(../img/3-0.jpg);
+background-size: 240vh;
+width: 100%;
+height: 800px;
+background-repeat: no-repeat;
+background-position: center;
+}
+.pag{
+    background-color: #ecf9ff6b;
+background-size: 240vh;
+height: 800px;
+margin: 0;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.pag h1{
+    color: rgb(0, 0, 0);
+    top: 100px;
+    font-size: 40px;
+    margin-top: 0;
+    padding-left: 70px;
+}
+.caja{
+    color: rgb(31, 26, 26);
+}
+.pag p{
+    font-size: 20px;
+    margin: 20px 50px 0px 50px;
+}
+.boton_principal{
+    height: 70px;
+    width: 50px;
+    background-color: rgb(230, 226, 200);
+    color: black;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 40px;
+}
+.boton_principal:hover{
+    height: 70px;
+    width: 50px;
+    background-color: rgb(238, 204, 204);
+    color: rgb(122, 12, 12);
+    transition:0.8s;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 40px;
+}
+.parte_principal{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.galeria h4{
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.seccion_ima{
+    display: flex;
+    justify-content: space-around;
+}
+
+.seccion_ima img{
+    margin: 30px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.seccion_img{
+    display: flex;
+    justify-content: space-around;
+}
+.seccion_img img{
+    margin: 30px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.ubicacion{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contacto{
+    background-color: #FFE7CC;
+    height: 600px;
+}
+.contacto h1{
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+/*inicio de formulario*/
+.formulario{
+    width: 450px;
+    margin-left: 50px;
+}
+label{
+    display: block;
+    font-size: 15px;
+}
+input{
+    background-color: beige;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+textarea{
+    background-color: beige;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+button{
+    display: block;
+    background-color: rgb(211, 237, 243);
+    border-radius: 10px;
+}
+/*footer*/
+.cierre{
+    width: 100%;
+    height: 150px;
+    background-color: #F8CBA6;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
